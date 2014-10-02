@@ -1,0 +1,40 @@
+body {
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.welcome {
+  font-size: 3em;
+  color: #ffaa00;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 2em;
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 2em 0 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover, .selected {
+  color: #ffaa00;
+}
+
+
+

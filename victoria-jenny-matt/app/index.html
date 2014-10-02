@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to the Flatlanders Gem Store!</title>
+  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/css/store.css">
+</head>
+
+<body data-ng-app="gemstoreApp">
+  <header>
+    <h1 class="welcome">Welcome to the Gem Store!</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#/index">Home</a>
+        </li>
+        <li>
+          <a href="#/store">Store</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div data-ng-view></div>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
