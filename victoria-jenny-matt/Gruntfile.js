@@ -56,5 +56,5 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('build:dev', ['clean:dev', 'browserify:dev', 'copy:dev', 'watch'])
+  grunt.registerTask('build:dev', ['clean:dev', 'browserify:dev', 'copy:dev'])
 }
